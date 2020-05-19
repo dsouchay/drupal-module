@@ -1,0 +1,14 @@
+procesar_prensa.inicio:
+  path: '/procesarprensa' 
+  defaults: 
+    _controller: '\Drupal\procesar_prensa\Controller\ProcesarPrensaController::content'                                                          
+    _title: 'Procesando prensa' 
+  requirements: 
+    _permission: 'access content'
+procesar_prensa.intermedio:
+  path: '/procensaintermedio' 
+  defaults: 
+    _controller: '\Drupal\procesar_prensa\Controller\ProcesarPrensaController::textofinal'                                                          
+    _title: 'Fin del preprocesado de las referencias de prensa' 
+  requirements: 
+    _permission: 'access content'

@@ -1,0 +1,7 @@
+services:
+  procesar_prensa.toolbox:
+    class: Drupal\procesar_prensa\Services\ProcesarPrensaToolbox
+    arguments: ['@database']
+  procesar_prensa.xml:
+    class: Drupal\procesar_prensa\Services\ProcesarXML
+ 

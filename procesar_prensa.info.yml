@@ -1,0 +1,6 @@
+name: Procesar Prensa Kantarmedia
+type: module
+description: 'Módulo que realiza la importación de las noticias de prensa externa de Kantarmedia'
+package: ATOS
+core: '8.x'
+project: 'procesar_prensa'
